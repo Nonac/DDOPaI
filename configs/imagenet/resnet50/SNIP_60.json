@@ -1,0 +1,20 @@
+{
+  "exp_name": "imagenet_resnet50_SNIP_prune_ratio_60",
+  "network": "resnet50",
+  "depth": 50,
+  "dataset": "imagenet",
+  "batch_size": 128,
+  "epoch": "0",
+  "learning_rate": "0",
+  "weight_decay": "0",
+  "exception": "-1",
+  "iterations": 1,
+  "normalize": false,
+  "target_ratio": 0.60,
+  "pruner": "SNIP",
+  "pruner_file": "SNIP",
+  "samples_per_class": 1,
+  "num_iters": 10,
+  "traindir": "../data/imagenet/train",
+  "prune_material":"img"
+}

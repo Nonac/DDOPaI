@@ -1,0 +1,14 @@
+version: '3'
+services:
+  extractdd:
+    build: .
+    runtime: nvidia
+    container_name: extractdd
+    ports:
+      - "20000:22"
+    volumes:
+      - /mnt/ssd_1:/mnt/ssd_1
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+      - NVIDIA_DRIVER_CAPABILITIES=compute,utility
+    image: extractdd:latest
