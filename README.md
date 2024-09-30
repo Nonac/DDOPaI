@@ -3,6 +3,22 @@
 This is the implementation of the paper:
 "Leveraging Discriminative Data: A Pathway to High-Performance, Stable One-shot Network Pruning at Initialization"
 
+### Citation
+```
+@article{YANG2024128529,
+title = {Leveraging discriminative data: A pathway to high-performance, stable One-shot Network Pruning at Initialization},
+journal = {Neurocomputing},
+volume = {610},
+pages = {128529},
+year = {2024},
+issn = {0925-2312},
+doi = {https://doi.org/10.1016/j.neucom.2024.128529},
+url = {https://www.sciencedirect.com/science/article/pii/S0925231224013006},
+author = {Yinan Yang and Ying Ji and Jien Kato},
+keywords = {Network pruning, One-shot, Pruning at initialization, Discriminative data}
+}
+```
+
 ## Step 0. File and Data Structure
 - ..
   - data
